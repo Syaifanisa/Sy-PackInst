@@ -19,3 +19,8 @@ and then run 1timesy.sh
 ```
 and done!, now you can use Sy-PackInst! 
 # How to use the tool?
+you just have to run this command to run the Sy-PackInst:
+``` bash
+Sy-PackInst
+```
+then choose the available options (reading more info is recommended), and enjoy! :)
