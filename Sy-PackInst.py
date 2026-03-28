@@ -20,7 +20,7 @@ packman = ["pkg install ", "apt install ", "pacman -S ", "dnf install ", "yum in
 
 pmp = ""
 
-ProgrammerPack = ["python", "nodejs", "php", "clang", "git", "neovim" ,"vim", "nano", "pip", "yarn", "make", "cmake", "gdb" "ruby", "go", "rust", "javac", "gradle", "maven"]
+ProgrammerPack = ["python", "nodejs", "php", "clang", "git", "neovim" ,"vim", "nano", "pip", "yarn", "make", "cmake", "gdb", "ruby", "go", "rust", "javac", "gradle", "maven"]
 
 MediaPack = ["mpv", "ffmpeg", "pulseaudio", "cava", "peaclock", "sox", "imagemagick", "feh", "sxiv" ,"yt-dlp", "termux-api"]
 
