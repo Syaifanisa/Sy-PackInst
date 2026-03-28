@@ -1,15 +1,15 @@
 echo "[+] Starting..." 
-pkg install -y python3 >/dev/null 2>&1 || \
-apt install -y python3 >/dev/null 2>&1 || \
-dnf install -y python3 --skip-broken >/dev/null 2>&1 || \
-yum install -y python3 --skip-broken >/dev/null 2>&1 || \
-pacman -S --noconfirm python3 >/dev/null 2>&1
-command -v curl >/dev/null 2>&1 || \
-pkg install -y curl >/dev/null 2>&1 || \
-apt install -y curl >/dev/null 2>&1 || \
-dnf install -y curl --skip-broken >/dev/null 2>&1 || \
-yum install -y curl --skip-broken >/dev/null 2>&1 || \
-pacman -S --noconfirm curl >/dev/null 2>&1
+pkg install -y python3 >/dev/null 2>&1
+apt install -y python3 >/dev/null 2>&1
+dnf install -y python3 --skip-broken
+yum install -y python3 --skip-broken
+pacman -S --noconfirm python3
+command -v curl
+pkg install -y curl
+apt install -y curl
+dnf install -y curl --skip-broken
+yum install -y curl --skip-broken
+pacman -S --noconfirm curl
 
 mkdir -p ~/Sy-PackInst
 curl -o ~/Sy-PackInst/Sy-PackInst.py \
