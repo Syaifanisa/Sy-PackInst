@@ -182,7 +182,7 @@ def moreinfo():
 	os.system("clear")
 	print(HoGUI)
 	tywr(f"""
-{Y}Why do some packages error during installation?: it's because the package is based on your repository, so that's why :)
+{Y}Why do some packages error during installation?:{G} it's because the package is based on your repository, so that's why :)
 —— -
 {Y}What is this tool for?: {G}This tool makes installing packages easier and faster with less typing!
 —— -
