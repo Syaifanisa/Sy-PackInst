@@ -1,6 +1,6 @@
 echo "[+] Starting..." 
-pkg install -y python3 >/dev/null 2>&1
-apt install -y python3 >/dev/null 2>&1
+pkg install -y python3
+apt install -y python3
 dnf install -y python3 --skip-broken
 yum install -y python3 --skip-broken
 pacman -S --noconfirm python3
