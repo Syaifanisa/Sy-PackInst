@@ -3,6 +3,7 @@
 import os
 import time
 import sys
+os.system("clear")
 R = '\033[91m'
 G = '\033[92m'
 Y = '\033[93m'
