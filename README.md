@@ -9,3 +9,13 @@ or
 ``` bash 
 curl -o https://github.com/Syaifanisa/Sy-PackInst/blob/main/1timesy.sh
 ```
+After that, you have to run the 1timesy.sh file, the task of this file is to install python 3 and curl automatically then create a folder called ~/Sy-PackInst and put the Sy-PackInst.py file in that directory, after that it automatically creates an alias Sy-PackInst in bashrc and then deletes itself, First of all we have to give permission to 1timesy.sh with chmod. (make sure you are in the /home directory)
+``` bash
+chmod -x 1timesy.sh
+```
+and then run 1timesy.sh
+``` bash
+./1timesy.sh
+```
+and done!, now you can use Sy-PackInst! 
+# How to use the tool?
