@@ -5,12 +5,9 @@ pkg install -y curl || apt install -y curl || dnf install -y curl --skip-broken 
 
 mkdir -p ~/Sy-PackInst
 curl -L -o ~/Sy-PackInst/Sy-PackInst.py https://raw.githubusercontent.com/Syaifanisa/Sy-PackInst/main/Sy-PackInst.py
-mv "Sy-PackInst.py" ~/Sy-PackInst/
 echo "[+] Making Alias"
-if ! grep -q "alias Sy-PackInst=" ~/.bashrc; then
-  echo "alias Sy-PackInst='python3 ~/Sy-PackInst/Sy-PackInst.py'" >> ~/.bashrc
+if ! grep -q "ALIAS_LINE=" ~/.bashrc; then
+    ALIAS_LINE="alias Sy-PackInst='python3 ~/Sy-PackInst/Sy-PackInst.py'"
 fi
-echo "[+] Running back shell"
-source ~/.bashrc
-echo "[+] Done, type 'Sy-PackInst' to run it."
+echo "[+] Done, type 'source ~/.bashrc' and then 'Sy-PackInst' to run it."
 rm -- "$0"
