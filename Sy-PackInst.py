@@ -14,7 +14,7 @@ r = '\033[0m'
 
 #LIST/VAR ——
 
-packages = ["All Packages","python","nodejs","php","clang","proot-distro","sl","nsnake","nudoku","bastet","burpsuite","nmap","ffmpeg","cava","peaclock","cmatrix","wireshark","pulseaudio","mpv","fastfetch","vim","lolcat","figlet","git","neovim","nano","pip","yarn","make","cmake","gdb","ruby","go","rust","javac","gradle","maven","netcat","tcpdump","whois","dnsutils","hydra","sqlmap","nikto","aircrack-ng","ettercap","openssl","cowsay","fortune","toilet","boxes","bb","oneko","moon-buggy","greed","ninvaders","htop","btop","neofetch","tmux","screen","fish","zsh","unzip","tar","tree","sox","imagemagick","feh","sxiv","yt-dlp","termux-api"]
+packages = ["python","nodejs","php","clang","proot-distro","sl","nsnake","nudoku","bastet","burpsuite","nmap","ffmpeg","cava","peaclock","cmatrix","wireshark","pulseaudio","mpv","fastfetch","vim","lolcat","figlet","git","neovim","nano","pip","yarn","make","cmake","gdb","ruby","go","rust","javac","gradle","maven","netcat","tcpdump","whois","dnsutils","hydra","sqlmap","nikto","aircrack-ng","ettercap","openssl","cowsay","fortune","toilet","boxes","bb","oneko","moon-buggy","greed","ninvaders","htop","btop","neofetch","tmux","screen","fish","zsh","unzip","tar","tree","sox","imagemagick","feh","sxiv","yt-dlp","termux-api"]
 
 packman = ["pkg install ", "apt install ", "pacman -S ", "dnf install ", "yum install "]
 
