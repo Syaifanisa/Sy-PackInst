@@ -49,27 +49,24 @@ def HGW():
 		sys.stdout.write(char)
 		sys.stdout.flush()
 		time.sleep(0.001)
-
+#—— -
 def tywr(text):
 	for char in text:
 		sys.stdout.write(char)
 		sys.stdout.flush()
 		time.sleep(0.001)
-		
-
+#—— -
 def home():
 	#package/pkgpack/moreinfo
 	os.system("clear")
 	HGW()
 	print(f"\n{Y}[?] {G}Where do you wanna go?{r}")
-	
+#—— -
 def package():
 	#home
 	pl = 1
 	os.system("clear")
 	print(HoGUI)
-	
-	
 	for i in packages:
 		print(f"{G}[{Y}P{G}] — {pl}.{Y}{i}")
 		pl += 1
@@ -89,8 +86,7 @@ def package():
 	os.system("clear")
 	HGW()			
 	print(f"\n{Y}[{G}+{Y}] Task Completed{r}")
-		
-		
+#—— -
 def pkgpack():
 	#home
 	os.system("clear")
@@ -175,8 +171,7 @@ def pkgpack():
 	os.system("clear")
 	HGW()						
 	print(f"\n{Y}[{G}+{Y}] Task Completed{r}")
-	
-	
+#—— -
 def moreinfo():
 	#home
 	os.system("clear")
@@ -192,7 +187,9 @@ def moreinfo():
 —— -
 {Y}How did you make that ASCII text?:{G} I use package figlet to make that because i dont know how to make a ascii text :)
 —— -
-{Y}Who's the developer of this tool?:{G} it's Syaifani S.A, a 13 years old boy from indonesia, he likes potatoes lol
+{Y}Do you use AI to make this tool?:{G} Yes, I use AI but only to improve grammar, more info, and readme.md, I make the logic and code myself!
+—— -
+{Y}Who's the developer of this tool?:{G} it's Syaifani S.A, a 13 years old boy from indonesia, he likes potatoes lol XD
 
 ————[!]— -
 {Y}Note:{G} This is the first version of this tools, so, there's may still be some bug! ¯\\_(ツ)_/¯
